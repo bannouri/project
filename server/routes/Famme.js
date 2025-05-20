@@ -13,7 +13,7 @@ router.post('/add', addFamme);
 router.get('/get/:id', getOneFamme);
 
 
-router.put('/update/:id', UPDATEFamme); 
+router.put('/put/:id', UPDATEFamme); 
 
 
 router.delete('/delete/:id', deliteFamme); 

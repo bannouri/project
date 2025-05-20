@@ -7,6 +7,6 @@ router.get('/getall', getAllHomme)
 router.post('/add',addHomme )
 router.get("/get/:id",getOneHomme)
 router.put('/put/:id',UPDATEHomme)
-router.delete("/delite/:id",deliteHomme)
+router.delete("/delete/:id",deliteHomme)
 
 module.exports = router;

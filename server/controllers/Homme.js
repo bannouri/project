@@ -49,7 +49,7 @@ module.exports = {
     UPDATEHomme:function(req,res){
         const id = req.params.id;
 
-        Hommeomme.update (req.body,{ where: { id: id } })
+        Homme.update (req.body,{ where: { id: id } })
         .then(users => {
             res.send(users);
         })

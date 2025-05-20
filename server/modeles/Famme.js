@@ -14,19 +14,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.FLOAT,
         allowNull: false
       },
-      category: {
-        type: DataTypes.ENUM("tshirt", "jeans", "jacket"),
-        allowNull: false
-      },
       image: {
         type: DataTypes.STRING,
         allowNull: true
       },
-      description: {
-        type: DataTypes.TEXT,
-        allowNull: true
-      }
-    });
+    })
   
     return Famme;
   };
